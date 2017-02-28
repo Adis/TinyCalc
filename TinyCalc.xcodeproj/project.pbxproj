@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		493DFCC51E6465A20027622D /* CalculationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 493DFCC41E6465A20027622D /* CalculationViewController.m */; };
+		494190B41E634BCF00C4AC95 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 494190B31E634BCF00C4AC95 /* main.m */; };
+		494190B71E634BD000C4AC95 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 494190B61E634BD000C4AC95 /* AppDelegate.m */; };
+		494190BD1E634BD000C4AC95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 494190BB1E634BD000C4AC95 /* Main.storyboard */; };
+		494190BF1E634BD000C4AC95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 494190BE1E634BD000C4AC95 /* Assets.xcassets */; };
+		494190C21E634BD000C4AC95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 494190C01E634BD000C4AC95 /* LaunchScreen.storyboard */; };
+		494190CD1E634BD000C4AC95 /* TinyCalcTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 494190CC1E634BD000C4AC95 /* TinyCalcTests.m */; };
+		494190D81E634BD000C4AC95 /* TinyCalcUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 494190D71E634BD000C4AC95 /* TinyCalcUITests.m */; };
+		494190E71E634C2E00C4AC95 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 494190E61E634C2E00C4AC95 /* RootViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		494190C91E634BD000C4AC95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 494190A71E634BCF00C4AC95 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 494190AE1E634BCF00C4AC95;
+			remoteInfo = TinyCalc;
+		};
+		494190D41E634BD000C4AC95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 494190A71E634BCF00C4AC95 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 494190AE1E634BCF00C4AC95;
+			remoteInfo = TinyCalc;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		493DFCC31E6465A20027622D /* CalculationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculationViewController.h; sourceTree = "<group>"; };
+		493DFCC41E6465A20027622D /* CalculationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculationViewController.m; sourceTree = "<group>"; };
+		494190AF1E634BCF00C4AC95 /* TinyCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TinyCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		494190B31E634BCF00C4AC95 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		494190B51E634BCF00C4AC95 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		494190B61E634BD000C4AC95 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		494190BC1E634BD000C4AC95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		494190BE1E634BD000C4AC95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		494190C11E634BD000C4AC95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		494190C31E634BD000C4AC95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		494190C81E634BD000C4AC95 /* TinyCalcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TinyCalcTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		494190CC1E634BD000C4AC95 /* TinyCalcTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TinyCalcTests.m; sourceTree = "<group>"; };
+		494190CE1E634BD000C4AC95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		494190D31E634BD000C4AC95 /* TinyCalcUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TinyCalcUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		494190D71E634BD000C4AC95 /* TinyCalcUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TinyCalcUITests.m; sourceTree = "<group>"; };
+		494190D91E634BD000C4AC95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		494190E51E634C2E00C4AC95 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		494190E61E634C2E00C4AC95 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		494190AC1E634BCF00C4AC95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		494190C51E634BD000C4AC95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		494190D01E634BD000C4AC95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		494190A61E634BCF00C4AC95 = {
+			isa = PBXGroup;
+			children = (
+				494190B11E634BCF00C4AC95 /* TinyCalc */,
+				494190CB1E634BD000C4AC95 /* TinyCalcTests */,
+				494190D61E634BD000C4AC95 /* TinyCalcUITests */,
+				494190B01E634BCF00C4AC95 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		494190B01E634BCF00C4AC95 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				494190AF1E634BCF00C4AC95 /* TinyCalc.app */,
+				494190C81E634BD000C4AC95 /* TinyCalcTests.xctest */,
+				494190D31E634BD000C4AC95 /* TinyCalcUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		494190B11E634BCF00C4AC95 /* TinyCalc */ = {
+			isa = PBXGroup;
+			children = (
+				494190B51E634BCF00C4AC95 /* AppDelegate.h */,
+				494190B61E634BD000C4AC95 /* AppDelegate.m */,
+				494190E51E634C2E00C4AC95 /* RootViewController.h */,
+				494190E61E634C2E00C4AC95 /* RootViewController.m */,
+				493DFCC31E6465A20027622D /* CalculationViewController.h */,
+				493DFCC41E6465A20027622D /* CalculationViewController.m */,
+				494190BB1E634BD000C4AC95 /* Main.storyboard */,
+				494190BE1E634BD000C4AC95 /* Assets.xcassets */,
+				494190C01E634BD000C4AC95 /* LaunchScreen.storyboard */,
+				494190C31E634BD000C4AC95 /* Info.plist */,
+				494190B21E634BCF00C4AC95 /* Supporting Files */,
+			);
+			path = TinyCalc;
+			sourceTree = "<group>";
+		};
+		494190B21E634BCF00C4AC95 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				494190B31E634BCF00C4AC95 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		494190CB1E634BD000C4AC95 /* TinyCalcTests */ = {
+			isa = PBXGroup;
+			children = (
+				494190CC1E634BD000C4AC95 /* TinyCalcTests.m */,
+				494190CE1E634BD000C4AC95 /* Info.plist */,
+			);
+			path = TinyCalcTests;
+			sourceTree = "<group>";
+		};
+		494190D61E634BD000C4AC95 /* TinyCalcUITests */ = {
+			isa = PBXGroup;
+			children = (
+				494190D71E634BD000C4AC95 /* TinyCalcUITests.m */,
+				494190D91E634BD000C4AC95 /* Info.plist */,
+			);
+			path = TinyCalcUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		494190AE1E634BCF00C4AC95 /* TinyCalc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 494190DC1E634BD000C4AC95 /* Build configuration list for PBXNativeTarget "TinyCalc" */;
+			buildPhases = (
+				494190AB1E634BCF00C4AC95 /* Sources */,
+				494190AC1E634BCF00C4AC95 /* Frameworks */,
+				494190AD1E634BCF00C4AC95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TinyCalc;
+			productName = TinyCalc;
+			productReference = 494190AF1E634BCF00C4AC95 /* TinyCalc.app */;
+			productType = "com.apple.product-type.application";
+		};
+		494190C71E634BD000C4AC95 /* TinyCalcTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 494190DF1E634BD000C4AC95 /* Build configuration list for PBXNativeTarget "TinyCalcTests" */;
+			buildPhases = (
+				494190C41E634BD000C4AC95 /* Sources */,
+				494190C51E634BD000C4AC95 /* Frameworks */,
+				494190C61E634BD000C4AC95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				494190CA1E634BD000C4AC95 /* PBXTargetDependency */,
+			);
+			name = TinyCalcTests;
+			productName = TinyCalcTests;
+			productReference = 494190C81E634BD000C4AC95 /* TinyCalcTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		494190D21E634BD000C4AC95 /* TinyCalcUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 494190E21E634BD000C4AC95 /* Build configuration list for PBXNativeTarget "TinyCalcUITests" */;
+			buildPhases = (
+				494190CF1E634BD000C4AC95 /* Sources */,
+				494190D01E634BD000C4AC95 /* Frameworks */,
+				494190D11E634BD000C4AC95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				494190D51E634BD000C4AC95 /* PBXTargetDependency */,
+			);
+			name = TinyCalcUITests;
+			productName = TinyCalcUITests;
+			productReference = 494190D31E634BD000C4AC95 /* TinyCalcUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		494190A71E634BCF00C4AC95 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Infinum;
+				TargetAttributes = {
+					494190AE1E634BCF00C4AC95 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 5F5M64F878;
+						ProvisioningStyle = Automatic;
+					};
+					494190C71E634BD000C4AC95 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 5F5M64F878;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 494190AE1E634BCF00C4AC95;
+					};
+					494190D21E634BD000C4AC95 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 5F5M64F878;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 494190AE1E634BCF00C4AC95;
+					};
+				};
+			};
+			buildConfigurationList = 494190AA1E634BCF00C4AC95 /* Build configuration list for PBXProject "TinyCalc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 494190A61E634BCF00C4AC95;
+			productRefGroup = 494190B01E634BCF00C4AC95 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				494190AE1E634BCF00C4AC95 /* TinyCalc */,
+				494190C71E634BD000C4AC95 /* TinyCalcTests */,
+				494190D21E634BD000C4AC95 /* TinyCalcUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		494190AD1E634BCF00C4AC95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				494190C21E634BD000C4AC95 /* LaunchScreen.storyboard in Resources */,
+				494190BF1E634BD000C4AC95 /* Assets.xcassets in Resources */,
+				494190BD1E634BD000C4AC95 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		494190C61E634BD000C4AC95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		494190D11E634BD000C4AC95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		494190AB1E634BCF00C4AC95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				493DFCC51E6465A20027622D /* CalculationViewController.m in Sources */,
+				494190B71E634BD000C4AC95 /* AppDelegate.m in Sources */,
+				494190B41E634BCF00C4AC95 /* main.m in Sources */,
+				494190E71E634C2E00C4AC95 /* RootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		494190C41E634BD000C4AC95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				494190CD1E634BD000C4AC95 /* TinyCalcTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		494190CF1E634BD000C4AC95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				494190D81E634BD000C4AC95 /* TinyCalcUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		494190CA1E634BD000C4AC95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 494190AE1E634BCF00C4AC95 /* TinyCalc */;
+			targetProxy = 494190C91E634BD000C4AC95 /* PBXContainerItemProxy */;
+		};
+		494190D51E634BD000C4AC95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 494190AE1E634BCF00C4AC95 /* TinyCalc */;
+			targetProxy = 494190D41E634BD000C4AC95 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		494190BB1E634BD000C4AC95 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				494190BC1E634BD000C4AC95 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		494190C01E634BD000C4AC95 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				494190C11E634BD000C4AC95 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		494190DA1E634BD000C4AC95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		494190DB1E634BD000C4AC95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		494190DD1E634BD000C4AC95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5F5M64F878;
+				INFOPLIST_FILE = TinyCalc/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.infinum.TinyCalc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		494190DE1E634BD000C4AC95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5F5M64F878;
+				INFOPLIST_FILE = TinyCalc/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.infinum.TinyCalc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		494190E01E634BD000C4AC95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 5F5M64F878;
+				INFOPLIST_FILE = TinyCalcTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.infinum.TinyCalcTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TinyCalc.app/TinyCalc";
+			};
+			name = Debug;
+		};
+		494190E11E634BD000C4AC95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 5F5M64F878;
+				INFOPLIST_FILE = TinyCalcTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.infinum.TinyCalcTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TinyCalc.app/TinyCalc";
+			};
+			name = Release;
+		};
+		494190E31E634BD000C4AC95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 5F5M64F878;
+				INFOPLIST_FILE = TinyCalcUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.infinum.TinyCalcUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TinyCalc;
+			};
+			name = Debug;
+		};
+		494190E41E634BD000C4AC95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 5F5M64F878;
+				INFOPLIST_FILE = TinyCalcUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.infinum.TinyCalcUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TinyCalc;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		494190AA1E634BCF00C4AC95 /* Build configuration list for PBXProject "TinyCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				494190DA1E634BD000C4AC95 /* Debug */,
+				494190DB1E634BD000C4AC95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		494190DC1E634BD000C4AC95 /* Build configuration list for PBXNativeTarget "TinyCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				494190DD1E634BD000C4AC95 /* Debug */,
+				494190DE1E634BD000C4AC95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		494190DF1E634BD000C4AC95 /* Build configuration list for PBXNativeTarget "TinyCalcTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				494190E01E634BD000C4AC95 /* Debug */,
+				494190E11E634BD000C4AC95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		494190E21E634BD000C4AC95 /* Build configuration list for PBXNativeTarget "TinyCalcUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				494190E31E634BD000C4AC95 /* Debug */,
+				494190E41E634BD000C4AC95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 494190A71E634BCF00C4AC95 /* Project object */;
+}
